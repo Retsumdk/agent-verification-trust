@@ -1,5 +1,10 @@
 # Agent Verification & Trust System
 
+[![Build](https://github.com/Retsumdk/agent-verification-trust/workflows/CI/badge.svg)](https://github.com/Retsumdk/agent-verification-trust/actions)
+[![TypeScript](https://img.shields.io/badge/typescript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)](https://github.com/Retsumdk/agent-verification-trust/releases)
+
 A comprehensive system for verifying AI agent identity, detecting behavioral drift, and establishing cryptographic trust across sessions. Built for autonomous AI agents that need verifiable credentials and continuous identity verification.
 
 ## Features
@@ -179,3 +184,8 @@ bun test
 ## License
 
 MIT License
+## 🔗 Related Repos
+
+- [agent-identity-passport](https://github.com/Retsumdk/agent-identity-passport) — Cryptographic identity for AI agents
+- [agent-memory-store](https://github.com/Retsumdk/agent-memory-store) — Persistent memory storage for AI agents
+- [agent-task-orchestrator](https://github.com/Retsumdk/agent-task-orchestrator) — Multi-agent workflow orchestration
