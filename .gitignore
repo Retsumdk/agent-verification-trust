@@ -3,3 +3,6 @@ dist/
 .env
 *.log
 coverage/
+.agent-attestation/
+.agent-drift/
+.agent-identity/
