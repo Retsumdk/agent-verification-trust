@@ -136,8 +136,12 @@ class SnapshotGenerator {
   }
 
   private calculatePercentile(sorted: number[], p: number): number {
-    const idx = Math.ceil((p / 100) * sorted.length) - 1;
-    return sorted[Math.max(0, idx)] || 0;
+    if (sorted.length === 0) return 0;
+    const rank = (p / 100) * (sorted.length - 1);
+    const lo = Math.floor(rank);
+    const hi = Math.ceil(rank);
+    if (lo === hi) return sorted[lo];
+    return sorted[lo] + (sorted[hi] - sorted[lo]) * (rank - lo);
   }
 
   generateSnapshot(): BehavioralSnapshot {
@@ -168,8 +172,9 @@ class SnapshotGenerator {
       : 0;
 
     // Calculate self-correction rate
-    const selfCorrectionRate = totalOutcomes > 0 
-      ? this.reasoningMetrics.selfCorrectionCount / totalOutcomes 
+    const correctionDenominator = totalOutcomes + this.reasoningMetrics.selfCorrectionCount;
+    const selfCorrectionRate = correctionDenominator > 0
+      ? this.reasoningMetrics.selfCorrectionCount / correctionDenominator
       : 0;
 
     // Calculate trust score (heuristic based on multiple factors)

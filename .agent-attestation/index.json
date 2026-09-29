@@ -1,0 +1,1290 @@
+{
+  "att_67a95c9960e0673ff0e314e5b19da77b": {
+    "id": "att_67a95c9960e0673ff0e314e5b19da77b",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:14:43.196Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "aecc947fe86bebd4193f242ae6a1328764f572b3159984e37392ff519b11631e",
+    "expiresAt": "2026-09-30T01:14:43.196Z"
+  },
+  "att_50b09aabbd6e07a47314e9af318bdda1": {
+    "id": "att_50b09aabbd6e07a47314e9af318bdda1",
+    "agentId": "att-agent-1",
+    "timestamp": "2026-09-29T01:14:43.199Z",
+    "sessionId": "session-1",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "a366a9bef8322228f49182d0ff9c283545ce3d5ad16a37c04febe93be62f7f25",
+    "expiresAt": "2026-09-30T01:14:43.199Z"
+  },
+  "att_44f7090820ffb2ca4693ba724cdb9895": {
+    "id": "att_44f7090820ffb2ca4693ba724cdb9895",
+    "agentId": "att-agent-2",
+    "timestamp": "2026-09-29T01:14:43.199Z",
+    "sessionId": "session-2",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "d8342042eb043d35b53878f373659e10d0d1f85caf2e17c864f05bcbb8e30941",
+    "expiresAt": "2026-09-30T01:14:43.199Z"
+  },
+  "att_7d944501b5d456d5f7e37b5a4e79ac8c": {
+    "id": "att_7d944501b5d456d5f7e37b5a4e79ac8c",
+    "agentId": "att-agent-3",
+    "timestamp": "2026-09-29T01:14:43.200Z",
+    "sessionId": "session-3",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "4a4fa71f45ca3491139c718ae794e0796d63c5e40f8b33c7b399ea156f20b960",
+    "expiresAt": "2026-09-30T01:14:43.200Z"
+  },
+  "att_b4f16742ca981468f0ef6f2fde458be9": {
+    "id": "att_b4f16742ca981468f0ef6f2fde458be9",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:43.200Z",
+    "sessionId": "session-a",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "8515d98561b02de9223e5c10c84f8850025cb48d418cf038a7d2f7308fb3f5a4",
+    "expiresAt": "2026-09-30T01:14:43.200Z"
+  },
+  "att_bd494ff7645e11ded70322a2e4493880": {
+    "id": "att_bd494ff7645e11ded70322a2e4493880",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:43.200Z",
+    "sessionId": "session-b",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "672c3701112b2b55a5d0f1c99ed4e6652425fc69416254207f577e40543b5536",
+    "expiresAt": "2026-09-30T01:14:43.200Z"
+  },
+  "att_e095ed5d98824bc98caa92cd9ae189dc": {
+    "id": "att_e095ed5d98824bc98caa92cd9ae189dc",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:43.200Z",
+    "sessionId": "session-c",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "3e7e3fbffa870a6f9b5af89172007fa04b631b4705192e671830251719d89c83",
+    "expiresAt": "2026-09-30T01:14:43.200Z"
+  },
+  "att_3a3e6049124a12bdee4ddc447359a1be": {
+    "id": "att_3a3e6049124a12bdee4ddc447359a1be",
+    "agentId": "att-agent-5",
+    "timestamp": "2026-09-29T01:14:43.201Z",
+    "sessionId": "session-old",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "c69d57132df2164171556adfa7b31836b23c9fb8517a966f78644072f0656f02",
+    "expiresAt": "2026-09-30T01:14:43.201Z"
+  },
+  "att_47cfebd8571b2f5fa3b01b3eb65944a0": {
+    "id": "att_47cfebd8571b2f5fa3b01b3eb65944a0",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:14:45.294Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "428328ef08dc4206c5015412e52d39d90909a1a921d666a0f1de30859165cc44",
+    "expiresAt": "2026-09-30T01:14:45.294Z"
+  },
+  "att_6226b939d718166097a6c7bbf8141a82": {
+    "id": "att_6226b939d718166097a6c7bbf8141a82",
+    "agentId": "att-agent-1",
+    "timestamp": "2026-09-29T01:14:45.296Z",
+    "sessionId": "session-1",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "c6aad64df488c211331aa555ca422151371e830e044681e5b38b25baf2937a64",
+    "expiresAt": "2026-09-30T01:14:45.296Z"
+  },
+  "att_5eff723dc73516e8b103b9555cfdc9a0": {
+    "id": "att_5eff723dc73516e8b103b9555cfdc9a0",
+    "agentId": "att-agent-2",
+    "timestamp": "2026-09-29T01:14:45.296Z",
+    "sessionId": "session-2",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "5133cd52204315bf956e32130251b46c8affe92ea6d9c8b8eb8793163ab94726",
+    "expiresAt": "2026-09-30T01:14:45.296Z"
+  },
+  "att_8a5e2c962aa7e85e1a4080bfafb16416": {
+    "id": "att_8a5e2c962aa7e85e1a4080bfafb16416",
+    "agentId": "att-agent-3",
+    "timestamp": "2026-09-29T01:14:45.297Z",
+    "sessionId": "session-3",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "8048788b65a3d4a3d12688657a521ee4733c9a7a5be94c4b3863da40d040d575",
+    "expiresAt": "2026-09-30T01:14:45.297Z"
+  },
+  "att_19facf6cd7d84afa30b0b028cdd5fc27": {
+    "id": "att_19facf6cd7d84afa30b0b028cdd5fc27",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:45.297Z",
+    "sessionId": "session-a",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "96ffcc795895169f42bc89d2da3deb66183ef465668eb5690fc9fd61d8a440a8",
+    "expiresAt": "2026-09-30T01:14:45.297Z"
+  },
+  "att_939473788b6cc28764767dfaa1e89f54": {
+    "id": "att_939473788b6cc28764767dfaa1e89f54",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:45.297Z",
+    "sessionId": "session-b",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "be3397f56b26d8539b632e9db92d4135119aeb25ade12027871cbc6d25ed040e",
+    "expiresAt": "2026-09-30T01:14:45.297Z"
+  },
+  "att_74a85b32c25b9143cf5937cb21bf8f84": {
+    "id": "att_74a85b32c25b9143cf5937cb21bf8f84",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:45.297Z",
+    "sessionId": "session-c",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "c137095ab4e0748251efcb8a59dc48723b823206954b054df3db8bcdc42e9229",
+    "expiresAt": "2026-09-30T01:14:45.297Z"
+  },
+  "att_530541419b95790f09c722d1afdfddaf": {
+    "id": "att_530541419b95790f09c722d1afdfddaf",
+    "agentId": "att-agent-5",
+    "timestamp": "2026-09-29T01:14:45.298Z",
+    "sessionId": "session-old",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "a031ab408ccee9b1dc2ffa387ca5e15d264e5e5cb206eb207247793b3ea24306",
+    "expiresAt": "2026-09-30T01:14:45.298Z"
+  },
+  "att_c58cf270b7963ce57eea0fa3527a6462": {
+    "id": "att_c58cf270b7963ce57eea0fa3527a6462",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:14:48.444Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "4434fbd23695246bfd5a343088f0a43cf33db2c5a5fcab9b3ccc38492c861468",
+    "expiresAt": "2026-09-30T01:14:48.444Z"
+  },
+  "att_f88bab6830abe7cd911c037dec312497": {
+    "id": "att_f88bab6830abe7cd911c037dec312497",
+    "agentId": "att-agent-1",
+    "timestamp": "2026-09-29T01:14:48.447Z",
+    "sessionId": "session-1",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "9c540a53d3f6276fadc023a11563ce236c0c7a4b1f3dfc60401721e05dff1a61",
+    "expiresAt": "2026-09-30T01:14:48.447Z"
+  },
+  "att_68a7299728ec3e7415113fbff5a59f63": {
+    "id": "att_68a7299728ec3e7415113fbff5a59f63",
+    "agentId": "att-agent-2",
+    "timestamp": "2026-09-29T01:14:48.447Z",
+    "sessionId": "session-2",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "e2e9b991127dbcfc8c6c64facc31193ff6a266f008a0675eb4184be8e99098a0",
+    "expiresAt": "2026-09-30T01:14:48.447Z"
+  },
+  "att_65e2d0e4ecd209da41a0f6889438bc36": {
+    "id": "att_65e2d0e4ecd209da41a0f6889438bc36",
+    "agentId": "att-agent-3",
+    "timestamp": "2026-09-29T01:14:48.447Z",
+    "sessionId": "session-3",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "8531038167558ac4880e9040aede2ccb15e9e4d5cc2461e408f274845c279bde",
+    "expiresAt": "2026-09-30T01:14:48.447Z"
+  },
+  "att_2b5caf5255b3b1af46cd763d643ae17c": {
+    "id": "att_2b5caf5255b3b1af46cd763d643ae17c",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.448Z",
+    "sessionId": "session-a",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "f477b8ee82840c2352aeb2c83c9edf49ecb5ae644508547cff8ae52a674013aa",
+    "expiresAt": "2026-09-30T01:14:48.448Z"
+  },
+  "att_c7e9ef3bcfb4168f32958d0ae6e467bb": {
+    "id": "att_c7e9ef3bcfb4168f32958d0ae6e467bb",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.448Z",
+    "sessionId": "session-b",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "0b201959053a6751b9cce4c2dba4ffa0d76161086c8df20b636e811c1c340f67",
+    "expiresAt": "2026-09-30T01:14:48.448Z"
+  },
+  "att_828b2d597fbf580b202fda981c218889": {
+    "id": "att_828b2d597fbf580b202fda981c218889",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.448Z",
+    "sessionId": "session-c",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "6097a53dc5e74998401cce799fbfc8771e429d6c4f9658fd61909f40662c2a0c",
+    "expiresAt": "2026-09-30T01:14:48.448Z"
+  },
+  "att_6cfc5b7ddf5bf7d7dc20cf1ef315cec0": {
+    "id": "att_6cfc5b7ddf5bf7d7dc20cf1ef315cec0",
+    "agentId": "att-agent-5",
+    "timestamp": "2026-09-29T01:14:48.449Z",
+    "sessionId": "session-old",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "b1f5faa49c4ade488aa7645a9b44d42e661cb2947d99c156904c661cd190924f",
+    "expiresAt": "2026-09-30T01:14:48.449Z"
+  },
+  "att_1dfe82b02dcd9e9ec91b577e8d4e8d6d": {
+    "id": "att_1dfe82b02dcd9e9ec91b577e8d4e8d6d",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:14:48.505Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "ad5b6ac26e5dc0197618b34895445b53bb3d1f7731463d4046cadcc1d190e2b1",
+    "expiresAt": "2026-09-30T01:14:48.505Z"
+  },
+  "att_3b758351af32c7dae3165df8a7a4a6dc": {
+    "id": "att_3b758351af32c7dae3165df8a7a4a6dc",
+    "agentId": "att-agent-1",
+    "timestamp": "2026-09-29T01:14:48.508Z",
+    "sessionId": "session-1",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "6fb5d10e56d44dc58555bc93a5155b003060528964eb6dbc35b39046d72a9c1e",
+    "expiresAt": "2026-09-30T01:14:48.508Z"
+  },
+  "att_00a4fcbd864fd9fc6387d377ac741d79": {
+    "id": "att_00a4fcbd864fd9fc6387d377ac741d79",
+    "agentId": "att-agent-2",
+    "timestamp": "2026-09-29T01:14:48.508Z",
+    "sessionId": "session-2",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "48a401386da88dee87160810d4a28b3e7be9f6914fc3a5f7fd1db2b7630cc8c3",
+    "expiresAt": "2026-09-30T01:14:48.508Z"
+  },
+  "att_0356229ae0526bd5ee5fcae8806ef609": {
+    "id": "att_0356229ae0526bd5ee5fcae8806ef609",
+    "agentId": "att-agent-3",
+    "timestamp": "2026-09-29T01:14:48.509Z",
+    "sessionId": "session-3",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "892b6f578190b6d319b5c5f6df999ccfa1cce8a6dadcdf858fb78314975accce",
+    "expiresAt": "2026-09-30T01:14:48.509Z"
+  },
+  "att_3af91e850cab4fe2d1a52689243dced4": {
+    "id": "att_3af91e850cab4fe2d1a52689243dced4",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.509Z",
+    "sessionId": "session-a",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "1f9104445ee9f62b0db8a21d993509eac2b6fab2b0a1ed4bd795c80aecb77442",
+    "expiresAt": "2026-09-30T01:14:48.509Z"
+  },
+  "att_11d078fd46f3eaf2fc66cf2ded5cdf93": {
+    "id": "att_11d078fd46f3eaf2fc66cf2ded5cdf93",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.509Z",
+    "sessionId": "session-b",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "9c116215a98b5f307f26e7deb0205617adf86b46db611c281f65ee1335ec019e",
+    "expiresAt": "2026-09-30T01:14:48.509Z"
+  },
+  "att_b23b6665226b02ad8f33ee8f0bd3f0f1": {
+    "id": "att_b23b6665226b02ad8f33ee8f0bd3f0f1",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:14:48.509Z",
+    "sessionId": "session-c",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "27bf3aba8a710e89f361c4c5ec2c72e934fc57b8c0eb770bbd99b8499566f5f9",
+    "expiresAt": "2026-09-30T01:14:48.509Z"
+  },
+  "att_5cadd2a2d0732027101a8cdc6e16184f": {
+    "id": "att_5cadd2a2d0732027101a8cdc6e16184f",
+    "agentId": "att-agent-5",
+    "timestamp": "2026-09-29T01:14:48.510Z",
+    "sessionId": "session-old",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "1df6d36ca35daa06f9c6d10cbe47b88fdd8ff1e99898d406143db2b2fde35e70",
+    "expiresAt": "2026-09-30T01:14:48.510Z"
+  },
+  "att_5bc6950c74563be7c0a89159a50d4e87": {
+    "id": "att_5bc6950c74563be7c0a89159a50d4e87",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:15:39.142Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "bdc6176faa7df52209e0777d375c3b7e508de0744b48262804cd0f905f2c7116",
+    "expiresAt": "2026-09-30T01:15:39.142Z"
+  },
+  "att_8d4ba67f9bcfa4cf0040cd38deeb66b4": {
+    "id": "att_8d4ba67f9bcfa4cf0040cd38deeb66b4",
+    "agentId": "att-agent-1",
+    "timestamp": "2026-09-29T01:15:39.145Z",
+    "sessionId": "session-1",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "f97d553586d664ede3b22aa1694564fa71260651e94f6dcfc5530a226315cfb0",
+    "expiresAt": "2026-09-30T01:15:39.145Z"
+  },
+  "att_1ffe9bdfa56ef4fbbc86c30e5b771455": {
+    "id": "att_1ffe9bdfa56ef4fbbc86c30e5b771455",
+    "agentId": "att-agent-2",
+    "timestamp": "2026-09-29T01:15:39.145Z",
+    "sessionId": "session-2",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "4e1b34e49a7910b00038168b83af3e8a83223f774e7ea1189b801fe6f8772983",
+    "expiresAt": "2026-09-30T01:15:39.145Z"
+  },
+  "att_2453cda6206a662af6c12754122da222": {
+    "id": "att_2453cda6206a662af6c12754122da222",
+    "agentId": "att-agent-3",
+    "timestamp": "2026-09-29T01:15:39.146Z",
+    "sessionId": "session-3",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "837fb4e004b9217ee8d6a1f2a583e4e6617e68291e7661d421d6dbbf28bdabd0",
+    "expiresAt": "2026-09-30T01:15:39.146Z"
+  },
+  "att_c9553b46d69d44e250e792d5039d656d": {
+    "id": "att_c9553b46d69d44e250e792d5039d656d",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:15:39.146Z",
+    "sessionId": "session-a",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "88501a326d2345a034fe6acf3638541bb88b508ad1a2f001f1e64071b7c4482a",
+    "expiresAt": "2026-09-30T01:15:39.146Z"
+  },
+  "att_2781329e326df0915d6ae72fdb35169d": {
+    "id": "att_2781329e326df0915d6ae72fdb35169d",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:15:39.147Z",
+    "sessionId": "session-b",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "57f716f11156604dec90f96b1c54edcdd2bac24f8cb85d0115adc958f7163029",
+    "expiresAt": "2026-09-30T01:15:39.147Z"
+  },
+  "att_24b2ef4b8f5bdca6878670e7165f075b": {
+    "id": "att_24b2ef4b8f5bdca6878670e7165f075b",
+    "agentId": "att-agent-4",
+    "timestamp": "2026-09-29T01:15:39.147Z",
+    "sessionId": "session-c",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "6b2bfdacf22ca9c88981119787e1389e9a9f0102a7b1551b904fce2130d41900",
+    "expiresAt": "2026-09-30T01:15:39.147Z"
+  },
+  "att_978e8bb8f7c12f03b0e2cb6716be90f5": {
+    "id": "att_978e8bb8f7c12f03b0e2cb6716be90f5",
+    "agentId": "att-agent-5",
+    "timestamp": "2026-09-29T01:15:39.147Z",
+    "sessionId": "session-old",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "3414d1a3b965fe1d613da8454400d0e9af5515d6664e31d13f5beb45bdd80825",
+    "expiresAt": "2026-09-30T01:15:39.147Z"
+  },
+  "att_eff595c4cb75b8502f51b85cb376f183": {
+    "id": "att_eff595c4cb75b8502f51b85cb376f183",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:15:47.309Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "26eb14005eb65dae8e6149284e5b95ee71dd8425a5a7e900da9d9843603d4027",
+    "expiresAt": "2026-09-30T01:15:47.309Z"
+  },
+  "att_a94d19931c70732fd27e64dd5390d0c9": {
+    "id": "att_a94d19931c70732fd27e64dd5390d0c9",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:15:49.835Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "68462c72ac871c09a444b49dcfcb9c333cd9f46f585d3000cd1c5b2d3c5abe18",
+    "expiresAt": "2026-09-30T01:15:49.835Z"
+  },
+  "att_6a0163dbb7702304ceaa2a8263ce6600": {
+    "id": "att_6a0163dbb7702304ceaa2a8263ce6600",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:16:06.338Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "b2691c0020c27db6e1fcddc6eb2c6822db669a41fbad67a854dd2c849cd31340",
+    "expiresAt": "2026-09-30T01:16:06.338Z"
+  },
+  "att_7925f4ed507b87a8a2380eace1844377": {
+    "id": "att_7925f4ed507b87a8a2380eace1844377",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:16:11.069Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "b8b5f5c167ec812b454270de54a2e98b87706bffb37dc7caebc81dac75327b0c",
+    "expiresAt": "2026-09-30T01:16:11.069Z"
+  },
+  "att_186cc993f93a0c66ddc3fcdb2f12d320": {
+    "id": "att_186cc993f93a0c66ddc3fcdb2f12d320",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:16:11.138Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "1446db48ec492ca3472735bf8947dd1fd721e3877dbd9dec29b92edec4e8a804",
+    "expiresAt": "2026-09-30T01:16:11.138Z"
+  },
+  "att_b272c127c37e57e8c8a5f13197130353": {
+    "id": "att_b272c127c37e57e8c8a5f13197130353",
+    "agentId": "test-agent-2",
+    "timestamp": "2026-09-29T01:16:31.974Z",
+    "sessionId": "session-123",
+    "behavioralSnapshot": {
+      "toolUsagePatterns": {
+        "search": 10,
+        "read": 5,
+        "write": 3,
+        "execute": 2
+      },
+      "responseLatency": {
+        "p50": 150,
+        "p95": 450,
+        "p99": 800
+      },
+      "errorRate": 0.02,
+      "successRate": 0.98,
+      "memoryAccessFrequency": 0.8,
+      "reasoningDepth": 4,
+      "selfCorrectionRate": 0.15,
+      "trustScore": 0.9
+    },
+    "capabilityHash": "64b369fdfa3935f5",
+    "signature": "4cc39824b2dfec59a11e4d5d278b9b70ee4ee6c3f88e7fa778a639a537126b74",
+    "expiresAt": "2026-09-30T01:16:31.974Z"
+  }
+}

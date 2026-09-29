@@ -568,7 +568,7 @@ class IdentityContinuityManager {
     currentPublicKey: string,
     behavioralConsistency: number,
     attestationFreshness: number
-  ): { isContinuous: boolean; continuityScore: number; factors: Record<string, number> } {
+  ): { isContinuous: boolean; continuityScore: number; factors: Record<string, number | string> } {
     const identity = this.identities.get(agentId);
     
     if (!identity) {
@@ -656,6 +656,10 @@ class TrustEngine {
     this.attestation = new AttestationEngine();
     this.drift = new DriftDetector();
     this.identity = new IdentityContinuityManager();
+  }
+
+  verifyAttestation(report: AttestationReport) {
+    return this.attestation.verifyAttestation(report);
   }
 
   assessOverallTrust(agentId: string, currentSnapshot: BehavioralSnapshot): {
@@ -798,7 +802,7 @@ program
   .description("Verify an attestation report")
   .action(async (reportFile) => {
     const report: AttestationReport = JSON.parse(readFileSync(reportFile, "utf-8"));
-    const result = trustEngine.attestation.verifyAttestation(report);
+    const result = trustEngine.verifyAttestation(report);
     console.log(JSON.stringify(result, null, 2));
   });
 
@@ -881,7 +885,11 @@ program
     console.log(JSON.stringify(result, null, 2));
   });
 
-program.parse(process.argv);
+if (import.meta.main) {
+  program.parse(process.argv);
+}
+
+
 
 export { AttestationEngine, DriftDetector, IdentityContinuityManager, TrustEngine };
 export type { AttestationReport, BehavioralSnapshot, DriftResult, IdentityClaim, VerificationResult };

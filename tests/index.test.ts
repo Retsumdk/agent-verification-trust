@@ -4,8 +4,11 @@
  */
 
 import { describe, test, expect, beforeEach } from "bun:test";
-import { TrustEngine, AttestationEngine, DriftDetector, IdentityContinuityManager } from "./index";
-import { SnapshotGenerator } from "./snapshot";
+import { mkdtempSync, rmSync } from "fs";
+import { tmpdir } from "os";
+import { join } from "path";
+import { TrustEngine, AttestationEngine, DriftDetector, IdentityContinuityManager } from "../src/index";
+import { SnapshotGenerator } from "../src/snapshot";
 
 describe("TrustEngine", () => {
   let engine: TrustEngine;
@@ -63,11 +66,13 @@ describe("TrustEngine", () => {
   });
 });
 
+const attTmp = (await import("fs")).mkdtempSync((await import("os")).tmpdir() + "/att-");
+
 describe("AttestationEngine", () => {
   let engine: AttestationEngine;
 
   beforeEach(() => {
-    engine = new AttestationEngine();
+    engine = new AttestationEngine(join(mkdtempSync(join(tmpdir(), "attest-")), "store"));
   });
 
   test("generateAttestation creates valid report", () => {
@@ -193,7 +198,7 @@ describe("IdentityContinuityManager", () => {
   let manager: IdentityContinuityManager;
 
   beforeEach(() => {
-    manager = IdentityContinuityManager();
+    manager = new IdentityContinuityManager(join(mkdtempSync(join(tmpdir(), "continuity-")), "store"));
   });
 
   test("registerAgent creates identity claim", () => {
@@ -288,7 +293,7 @@ describe("SnapshotGenerator", () => {
     generator.recordToolInvocation("write", 200, false);
 
     const metrics = generator.getMetrics();
-    expect(metrics.toolMetrics.length).toBe(2);
+    expect(metrics.toolMetrics.length).toBe(3);
     expect(metrics.successCount).toBe(3);
     expect(metrics.errorCount).toBe(1);
   });
